@@ -1,0 +1,18 @@
+#exclude when running docker file and not included in the docker image 
+#Git 
+.git
+.gitignore
+.docker
+
+#Python
+#Not needed in our docker container
+#All different pycache are removed
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+#REmove any virtual environment
+venv/
+
